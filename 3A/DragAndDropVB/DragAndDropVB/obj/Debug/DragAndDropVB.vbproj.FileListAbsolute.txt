@@ -1,0 +1,12 @@
+C:\Users\Gamer\source\repos\DragAndDropVB\DragAndDropVB\bin\Debug\DragAndDropVB.exe.config
+C:\Users\Gamer\source\repos\DragAndDropVB\DragAndDropVB\bin\Debug\DragAndDropVB.exe
+C:\Users\Gamer\source\repos\DragAndDropVB\DragAndDropVB\bin\Debug\DragAndDropVB.pdb
+C:\Users\Gamer\source\repos\DragAndDropVB\DragAndDropVB\bin\Debug\DragAndDropVB.xml
+C:\Users\Gamer\source\repos\DragAndDropVB\DragAndDropVB\obj\Debug\DragAndDropVB.vbprojAssemblyReference.cache
+C:\Users\Gamer\source\repos\DragAndDropVB\DragAndDropVB\obj\Debug\DragAndDropVB.Form1.resources
+C:\Users\Gamer\source\repos\DragAndDropVB\DragAndDropVB\obj\Debug\DragAndDropVB.Resources.resources
+C:\Users\Gamer\source\repos\DragAndDropVB\DragAndDropVB\obj\Debug\DragAndDropVB.vbproj.GenerateResource.cache
+C:\Users\Gamer\source\repos\DragAndDropVB\DragAndDropVB\obj\Debug\DragAndDropVB.vbproj.CoreCompileInputs.cache
+C:\Users\Gamer\source\repos\DragAndDropVB\DragAndDropVB\obj\Debug\DragAndDropVB.exe
+C:\Users\Gamer\source\repos\DragAndDropVB\DragAndDropVB\obj\Debug\DragAndDropVB.xml
+C:\Users\Gamer\source\repos\DragAndDropVB\DragAndDropVB\obj\Debug\DragAndDropVB.pdb

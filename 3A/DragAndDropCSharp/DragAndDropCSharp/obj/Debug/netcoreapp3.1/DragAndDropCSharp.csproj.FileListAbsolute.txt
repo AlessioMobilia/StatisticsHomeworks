@@ -1,0 +1,15 @@
+C:\Users\Gamer\source\repos\DragAndDropCSharp\DragAndDropCSharp\bin\Debug\netcoreapp3.1\DragAndDropCSharp.exe
+C:\Users\Gamer\source\repos\DragAndDropCSharp\DragAndDropCSharp\bin\Debug\netcoreapp3.1\DragAndDropCSharp.deps.json
+C:\Users\Gamer\source\repos\DragAndDropCSharp\DragAndDropCSharp\bin\Debug\netcoreapp3.1\DragAndDropCSharp.runtimeconfig.json
+C:\Users\Gamer\source\repos\DragAndDropCSharp\DragAndDropCSharp\bin\Debug\netcoreapp3.1\DragAndDropCSharp.runtimeconfig.dev.json
+C:\Users\Gamer\source\repos\DragAndDropCSharp\DragAndDropCSharp\bin\Debug\netcoreapp3.1\DragAndDropCSharp.dll
+C:\Users\Gamer\source\repos\DragAndDropCSharp\DragAndDropCSharp\bin\Debug\netcoreapp3.1\DragAndDropCSharp.pdb
+C:\Users\Gamer\source\repos\DragAndDropCSharp\DragAndDropCSharp\obj\Debug\netcoreapp3.1\DragAndDropCSharp.csprojAssemblyReference.cache
+C:\Users\Gamer\source\repos\DragAndDropCSharp\DragAndDropCSharp\obj\Debug\netcoreapp3.1\DragAndDropCSharp.Form1.resources
+C:\Users\Gamer\source\repos\DragAndDropCSharp\DragAndDropCSharp\obj\Debug\netcoreapp3.1\DragAndDropCSharp.csproj.GenerateResource.cache
+C:\Users\Gamer\source\repos\DragAndDropCSharp\DragAndDropCSharp\obj\Debug\netcoreapp3.1\DragAndDropCSharp.AssemblyInfoInputs.cache
+C:\Users\Gamer\source\repos\DragAndDropCSharp\DragAndDropCSharp\obj\Debug\netcoreapp3.1\DragAndDropCSharp.AssemblyInfo.cs
+C:\Users\Gamer\source\repos\DragAndDropCSharp\DragAndDropCSharp\obj\Debug\netcoreapp3.1\DragAndDropCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\source\repos\DragAndDropCSharp\DragAndDropCSharp\obj\Debug\netcoreapp3.1\DragAndDropCSharp.dll
+C:\Users\Gamer\source\repos\DragAndDropCSharp\DragAndDropCSharp\obj\Debug\netcoreapp3.1\DragAndDropCSharp.pdb
+C:\Users\Gamer\source\repos\DragAndDropCSharp\DragAndDropCSharp\obj\Debug\netcoreapp3.1\DragAndDropCSharp.genruntimeconfig.cache
