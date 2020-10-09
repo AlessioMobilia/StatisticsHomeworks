@@ -1,0 +1,15 @@
+C:\Users\Gamer\source\repos\WindowsFormsAppTest\WindowsFormsAppTest\bin\Debug\netcoreapp3.1\WindowsFormsAppTest.exe
+C:\Users\Gamer\source\repos\WindowsFormsAppTest\WindowsFormsAppTest\bin\Debug\netcoreapp3.1\WindowsFormsAppTest.deps.json
+C:\Users\Gamer\source\repos\WindowsFormsAppTest\WindowsFormsAppTest\bin\Debug\netcoreapp3.1\WindowsFormsAppTest.runtimeconfig.json
+C:\Users\Gamer\source\repos\WindowsFormsAppTest\WindowsFormsAppTest\bin\Debug\netcoreapp3.1\WindowsFormsAppTest.runtimeconfig.dev.json
+C:\Users\Gamer\source\repos\WindowsFormsAppTest\WindowsFormsAppTest\bin\Debug\netcoreapp3.1\WindowsFormsAppTest.dll
+C:\Users\Gamer\source\repos\WindowsFormsAppTest\WindowsFormsAppTest\bin\Debug\netcoreapp3.1\WindowsFormsAppTest.pdb
+C:\Users\Gamer\source\repos\WindowsFormsAppTest\WindowsFormsAppTest\obj\Debug\netcoreapp3.1\WindowsFormsAppTest.csprojAssemblyReference.cache
+C:\Users\Gamer\source\repos\WindowsFormsAppTest\WindowsFormsAppTest\obj\Debug\netcoreapp3.1\WindowsFormsAppTest.Form1.resources
+C:\Users\Gamer\source\repos\WindowsFormsAppTest\WindowsFormsAppTest\obj\Debug\netcoreapp3.1\WindowsFormsAppTest.csproj.GenerateResource.cache
+C:\Users\Gamer\source\repos\WindowsFormsAppTest\WindowsFormsAppTest\obj\Debug\netcoreapp3.1\WindowsFormsAppTest.AssemblyInfoInputs.cache
+C:\Users\Gamer\source\repos\WindowsFormsAppTest\WindowsFormsAppTest\obj\Debug\netcoreapp3.1\WindowsFormsAppTest.AssemblyInfo.cs
+C:\Users\Gamer\source\repos\WindowsFormsAppTest\WindowsFormsAppTest\obj\Debug\netcoreapp3.1\WindowsFormsAppTest.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\source\repos\WindowsFormsAppTest\WindowsFormsAppTest\obj\Debug\netcoreapp3.1\WindowsFormsAppTest.dll
+C:\Users\Gamer\source\repos\WindowsFormsAppTest\WindowsFormsAppTest\obj\Debug\netcoreapp3.1\WindowsFormsAppTest.pdb
+C:\Users\Gamer\source\repos\WindowsFormsAppTest\WindowsFormsAppTest\obj\Debug\netcoreapp3.1\WindowsFormsAppTest.genruntimeconfig.cache

@@ -1,0 +1,10 @@
+C:\Users\Gamer\source\repos\ValueVsReferenceCSharp\ValueVsReferenceCSharp\bin\Debug\ValueVsReferenceCSharp.exe.config
+C:\Users\Gamer\source\repos\ValueVsReferenceCSharp\ValueVsReferenceCSharp\bin\Debug\ValueVsReferenceCSharp.exe
+C:\Users\Gamer\source\repos\ValueVsReferenceCSharp\ValueVsReferenceCSharp\bin\Debug\ValueVsReferenceCSharp.pdb
+C:\Users\Gamer\source\repos\ValueVsReferenceCSharp\ValueVsReferenceCSharp\obj\Debug\ValueVsReferenceCSharp.csprojAssemblyReference.cache
+C:\Users\Gamer\source\repos\ValueVsReferenceCSharp\ValueVsReferenceCSharp\obj\Debug\ValueVsReferenceCSharp.Form1.resources
+C:\Users\Gamer\source\repos\ValueVsReferenceCSharp\ValueVsReferenceCSharp\obj\Debug\ValueVsReferenceCSharp.Properties.Resources.resources
+C:\Users\Gamer\source\repos\ValueVsReferenceCSharp\ValueVsReferenceCSharp\obj\Debug\ValueVsReferenceCSharp.csproj.GenerateResource.cache
+C:\Users\Gamer\source\repos\ValueVsReferenceCSharp\ValueVsReferenceCSharp\obj\Debug\ValueVsReferenceCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\source\repos\ValueVsReferenceCSharp\ValueVsReferenceCSharp\obj\Debug\ValueVsReferenceCSharp.exe
+C:\Users\Gamer\source\repos\ValueVsReferenceCSharp\ValueVsReferenceCSharp\obj\Debug\ValueVsReferenceCSharp.pdb

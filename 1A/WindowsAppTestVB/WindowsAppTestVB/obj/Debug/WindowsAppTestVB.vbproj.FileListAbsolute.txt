@@ -1,0 +1,12 @@
+C:\Users\Gamer\source\repos\WindowsAppTestVB\WindowsAppTestVB\bin\Debug\WindowsAppTestVB.exe.config
+C:\Users\Gamer\source\repos\WindowsAppTestVB\WindowsAppTestVB\bin\Debug\WindowsAppTestVB.exe
+C:\Users\Gamer\source\repos\WindowsAppTestVB\WindowsAppTestVB\bin\Debug\WindowsAppTestVB.pdb
+C:\Users\Gamer\source\repos\WindowsAppTestVB\WindowsAppTestVB\bin\Debug\WindowsAppTestVB.xml
+C:\Users\Gamer\source\repos\WindowsAppTestVB\WindowsAppTestVB\obj\Debug\WindowsAppTestVB.vbprojAssemblyReference.cache
+C:\Users\Gamer\source\repos\WindowsAppTestVB\WindowsAppTestVB\obj\Debug\WindowsAppTestVB.Form1.resources
+C:\Users\Gamer\source\repos\WindowsAppTestVB\WindowsAppTestVB\obj\Debug\WindowsAppTestVB.Resources.resources
+C:\Users\Gamer\source\repos\WindowsAppTestVB\WindowsAppTestVB\obj\Debug\WindowsAppTestVB.vbproj.GenerateResource.cache
+C:\Users\Gamer\source\repos\WindowsAppTestVB\WindowsAppTestVB\obj\Debug\WindowsAppTestVB.vbproj.CoreCompileInputs.cache
+C:\Users\Gamer\source\repos\WindowsAppTestVB\WindowsAppTestVB\obj\Debug\WindowsAppTestVB.exe
+C:\Users\Gamer\source\repos\WindowsAppTestVB\WindowsAppTestVB\obj\Debug\WindowsAppTestVB.xml
+C:\Users\Gamer\source\repos\WindowsAppTestVB\WindowsAppTestVB\obj\Debug\WindowsAppTestVB.pdb
