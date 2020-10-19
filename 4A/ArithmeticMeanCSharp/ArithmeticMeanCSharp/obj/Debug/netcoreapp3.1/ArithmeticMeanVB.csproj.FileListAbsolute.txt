@@ -1,0 +1,15 @@
+C:\Users\aless\source\repos\ArithmeticMeanVB\ArithmeticMeanVB\bin\Debug\netcoreapp3.1\ArithmeticMeanVB.exe
+C:\Users\aless\source\repos\ArithmeticMeanVB\ArithmeticMeanVB\bin\Debug\netcoreapp3.1\ArithmeticMeanVB.deps.json
+C:\Users\aless\source\repos\ArithmeticMeanVB\ArithmeticMeanVB\bin\Debug\netcoreapp3.1\ArithmeticMeanVB.runtimeconfig.json
+C:\Users\aless\source\repos\ArithmeticMeanVB\ArithmeticMeanVB\bin\Debug\netcoreapp3.1\ArithmeticMeanVB.runtimeconfig.dev.json
+C:\Users\aless\source\repos\ArithmeticMeanVB\ArithmeticMeanVB\bin\Debug\netcoreapp3.1\ArithmeticMeanVB.dll
+C:\Users\aless\source\repos\ArithmeticMeanVB\ArithmeticMeanVB\bin\Debug\netcoreapp3.1\ArithmeticMeanVB.pdb
+C:\Users\aless\source\repos\ArithmeticMeanVB\ArithmeticMeanVB\obj\Debug\netcoreapp3.1\ArithmeticMeanVB.csprojAssemblyReference.cache
+C:\Users\aless\source\repos\ArithmeticMeanVB\ArithmeticMeanVB\obj\Debug\netcoreapp3.1\ArithmeticMeanVB.Form1.resources
+C:\Users\aless\source\repos\ArithmeticMeanVB\ArithmeticMeanVB\obj\Debug\netcoreapp3.1\ArithmeticMeanVB.csproj.GenerateResource.cache
+C:\Users\aless\source\repos\ArithmeticMeanVB\ArithmeticMeanVB\obj\Debug\netcoreapp3.1\ArithmeticMeanVB.AssemblyInfoInputs.cache
+C:\Users\aless\source\repos\ArithmeticMeanVB\ArithmeticMeanVB\obj\Debug\netcoreapp3.1\ArithmeticMeanVB.AssemblyInfo.cs
+C:\Users\aless\source\repos\ArithmeticMeanVB\ArithmeticMeanVB\obj\Debug\netcoreapp3.1\ArithmeticMeanVB.csproj.CoreCompileInputs.cache
+C:\Users\aless\source\repos\ArithmeticMeanVB\ArithmeticMeanVB\obj\Debug\netcoreapp3.1\ArithmeticMeanVB.dll
+C:\Users\aless\source\repos\ArithmeticMeanVB\ArithmeticMeanVB\obj\Debug\netcoreapp3.1\ArithmeticMeanVB.pdb
+C:\Users\aless\source\repos\ArithmeticMeanVB\ArithmeticMeanVB\obj\Debug\netcoreapp3.1\ArithmeticMeanVB.genruntimeconfig.cache

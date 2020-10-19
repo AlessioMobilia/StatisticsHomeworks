@@ -1,0 +1,12 @@
+C:\Users\aless\source\repos\ArithmeticMeanVBNET\ArithmeticMeanVBNET\obj\Debug\ArithmeticMeanVBNET.vbprojAssemblyReference.cache
+C:\Users\aless\source\repos\ArithmeticMeanVBNET\ArithmeticMeanVBNET\obj\Debug\ArithmeticMeanVBNET.Resources.resources
+C:\Users\aless\source\repos\ArithmeticMeanVBNET\ArithmeticMeanVBNET\obj\Debug\ArithmeticMeanVBNET.vbproj.GenerateResource.cache
+C:\Users\aless\source\repos\ArithmeticMeanVBNET\ArithmeticMeanVBNET\obj\Debug\ArithmeticMeanVBNET.vbproj.CoreCompileInputs.cache
+C:\Users\aless\source\repos\ArithmeticMeanVBNET\ArithmeticMeanVBNET\obj\Debug\ArithmeticMeanVBNET.Form1.resources
+C:\Users\aless\source\repos\ArithmeticMeanVBNET\ArithmeticMeanVBNET\bin\Debug\ArithmeticMeanVBNET.exe.config
+C:\Users\aless\source\repos\ArithmeticMeanVBNET\ArithmeticMeanVBNET\bin\Debug\ArithmeticMeanVBNET.exe
+C:\Users\aless\source\repos\ArithmeticMeanVBNET\ArithmeticMeanVBNET\bin\Debug\ArithmeticMeanVBNET.pdb
+C:\Users\aless\source\repos\ArithmeticMeanVBNET\ArithmeticMeanVBNET\bin\Debug\ArithmeticMeanVBNET.xml
+C:\Users\aless\source\repos\ArithmeticMeanVBNET\ArithmeticMeanVBNET\obj\Debug\ArithmeticMeanVBNET.exe
+C:\Users\aless\source\repos\ArithmeticMeanVBNET\ArithmeticMeanVBNET\obj\Debug\ArithmeticMeanVBNET.xml
+C:\Users\aless\source\repos\ArithmeticMeanVBNET\ArithmeticMeanVBNET\obj\Debug\ArithmeticMeanVBNET.pdb
