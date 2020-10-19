@@ -1,0 +1,15 @@
+C:\Users\aless\source\repos\ArithmeticMeanContinuosVar\ArithmeticMeanContinuosVar\bin\Debug\netcoreapp3.1\ArithmeticMeanContinuosVar.exe
+C:\Users\aless\source\repos\ArithmeticMeanContinuosVar\ArithmeticMeanContinuosVar\bin\Debug\netcoreapp3.1\ArithmeticMeanContinuosVar.deps.json
+C:\Users\aless\source\repos\ArithmeticMeanContinuosVar\ArithmeticMeanContinuosVar\bin\Debug\netcoreapp3.1\ArithmeticMeanContinuosVar.runtimeconfig.json
+C:\Users\aless\source\repos\ArithmeticMeanContinuosVar\ArithmeticMeanContinuosVar\bin\Debug\netcoreapp3.1\ArithmeticMeanContinuosVar.runtimeconfig.dev.json
+C:\Users\aless\source\repos\ArithmeticMeanContinuosVar\ArithmeticMeanContinuosVar\bin\Debug\netcoreapp3.1\ArithmeticMeanContinuosVar.dll
+C:\Users\aless\source\repos\ArithmeticMeanContinuosVar\ArithmeticMeanContinuosVar\bin\Debug\netcoreapp3.1\ArithmeticMeanContinuosVar.pdb
+C:\Users\aless\source\repos\ArithmeticMeanContinuosVar\ArithmeticMeanContinuosVar\obj\Debug\netcoreapp3.1\ArithmeticMeanContinuosVar.csprojAssemblyReference.cache
+C:\Users\aless\source\repos\ArithmeticMeanContinuosVar\ArithmeticMeanContinuosVar\obj\Debug\netcoreapp3.1\ArithmeticMeanContinuosVar.Form1.resources
+C:\Users\aless\source\repos\ArithmeticMeanContinuosVar\ArithmeticMeanContinuosVar\obj\Debug\netcoreapp3.1\ArithmeticMeanContinuosVar.csproj.GenerateResource.cache
+C:\Users\aless\source\repos\ArithmeticMeanContinuosVar\ArithmeticMeanContinuosVar\obj\Debug\netcoreapp3.1\ArithmeticMeanContinuosVar.AssemblyInfoInputs.cache
+C:\Users\aless\source\repos\ArithmeticMeanContinuosVar\ArithmeticMeanContinuosVar\obj\Debug\netcoreapp3.1\ArithmeticMeanContinuosVar.AssemblyInfo.cs
+C:\Users\aless\source\repos\ArithmeticMeanContinuosVar\ArithmeticMeanContinuosVar\obj\Debug\netcoreapp3.1\ArithmeticMeanContinuosVar.csproj.CoreCompileInputs.cache
+C:\Users\aless\source\repos\ArithmeticMeanContinuosVar\ArithmeticMeanContinuosVar\obj\Debug\netcoreapp3.1\ArithmeticMeanContinuosVar.dll
+C:\Users\aless\source\repos\ArithmeticMeanContinuosVar\ArithmeticMeanContinuosVar\obj\Debug\netcoreapp3.1\ArithmeticMeanContinuosVar.pdb
+C:\Users\aless\source\repos\ArithmeticMeanContinuosVar\ArithmeticMeanContinuosVar\obj\Debug\netcoreapp3.1\ArithmeticMeanContinuosVar.genruntimeconfig.cache
