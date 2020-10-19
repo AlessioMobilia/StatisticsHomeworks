@@ -1,0 +1,15 @@
+C:\Users\aless\source\repos\NaiveArithmeticMean\NaiveArithmeticMean\obj\Debug\netcoreapp3.1\NaiveArithmeticMean.csprojAssemblyReference.cache
+C:\Users\aless\source\repos\NaiveArithmeticMean\NaiveArithmeticMean\obj\Debug\netcoreapp3.1\NaiveArithmeticMean.Form1.resources
+C:\Users\aless\source\repos\NaiveArithmeticMean\NaiveArithmeticMean\obj\Debug\netcoreapp3.1\NaiveArithmeticMean.csproj.GenerateResource.cache
+C:\Users\aless\source\repos\NaiveArithmeticMean\NaiveArithmeticMean\obj\Debug\netcoreapp3.1\NaiveArithmeticMean.AssemblyInfoInputs.cache
+C:\Users\aless\source\repos\NaiveArithmeticMean\NaiveArithmeticMean\obj\Debug\netcoreapp3.1\NaiveArithmeticMean.AssemblyInfo.cs
+C:\Users\aless\source\repos\NaiveArithmeticMean\NaiveArithmeticMean\obj\Debug\netcoreapp3.1\NaiveArithmeticMean.csproj.CoreCompileInputs.cache
+C:\Users\aless\source\repos\NaiveArithmeticMean\NaiveArithmeticMean\bin\Debug\netcoreapp3.1\NaiveArithmeticMean.exe
+C:\Users\aless\source\repos\NaiveArithmeticMean\NaiveArithmeticMean\bin\Debug\netcoreapp3.1\NaiveArithmeticMean.deps.json
+C:\Users\aless\source\repos\NaiveArithmeticMean\NaiveArithmeticMean\bin\Debug\netcoreapp3.1\NaiveArithmeticMean.runtimeconfig.json
+C:\Users\aless\source\repos\NaiveArithmeticMean\NaiveArithmeticMean\bin\Debug\netcoreapp3.1\NaiveArithmeticMean.runtimeconfig.dev.json
+C:\Users\aless\source\repos\NaiveArithmeticMean\NaiveArithmeticMean\bin\Debug\netcoreapp3.1\NaiveArithmeticMean.dll
+C:\Users\aless\source\repos\NaiveArithmeticMean\NaiveArithmeticMean\bin\Debug\netcoreapp3.1\NaiveArithmeticMean.pdb
+C:\Users\aless\source\repos\NaiveArithmeticMean\NaiveArithmeticMean\obj\Debug\netcoreapp3.1\NaiveArithmeticMean.dll
+C:\Users\aless\source\repos\NaiveArithmeticMean\NaiveArithmeticMean\obj\Debug\netcoreapp3.1\NaiveArithmeticMean.pdb
+C:\Users\aless\source\repos\NaiveArithmeticMean\NaiveArithmeticMean\obj\Debug\netcoreapp3.1\NaiveArithmeticMean.genruntimeconfig.cache
