@@ -210,11 +210,22 @@ namespace ReadCSV
         private static int CheckDelimiter(string delimiter,string path)
         {
             using TextFieldParser parser = new TextFieldParser(path);
-            parser.Delimiters = new string[] { delimiter };
-            string[] parts = parser.ReadFields();
+            int lenght = 0;
+            try
+            {
+                parser.Delimiters = new string[] { delimiter };
+                string[] parts = parser.ReadFields();
+                lenght = parts.Length;
+            }
+            catch
+            {
+            }
+            
             parser.Close();
-            return parts.Length;
+            return lenght;
             
         }
+
+
     }
 }

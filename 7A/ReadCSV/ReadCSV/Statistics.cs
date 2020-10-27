@@ -110,6 +110,7 @@ namespace ReadCSV
             
         }
 
+
         public void UpdateFreq()
         {
             //update freq and perc

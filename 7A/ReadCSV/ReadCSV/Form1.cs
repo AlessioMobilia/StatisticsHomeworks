@@ -222,20 +222,29 @@ namespace ReadCSV
                     Statistics stat = new Statistics();
 
                     double distance = (double)this.numericUpDownIntervalDistance.Value;
+                    int nullCounter = 0;
                     if (distance == 1)
                     {
                         if (numericDistribution) //calculate the arithmetic mean if is numeric
                         {
                             foreach (string[] row in csv)
                             {
-                                stat.OnlineArithmeticMean(Convert.ToDouble(row[index]));
+                                if (row[index].Trim() != "")
+                                {
+                                    double value = Convert.ToDouble(row[index]);
+                                    stat.OnlineArithmeticMean(value);
+                                }
+                                
                             }
                         }
 
                         //calcolate the online distribution of discrete variable
                         foreach (string[] row in csv)
                         {
-                            stat.OnlineDistribution(row[index], 1);
+                            if (row[index].Trim() == "")
+                                nullCounter++;
+                            else
+                                stat.OnlineDistribution(row[index], 1);
                         }
 
                         double[] freq = stat.CalcDisctreteFreq();
@@ -250,6 +259,10 @@ namespace ReadCSV
                             this.dataGridDistribution.Rows.Add(value.Key, value.Value, freq[i], perc[i]);
                             i++;
                         }
+                        if (nullCounter > 0)
+                        {
+                            this.dataGridDistribution.Rows.Add("NULL", nullCounter);
+                        }
 
                     }
                     else //continuos variable
@@ -258,10 +271,19 @@ namespace ReadCSV
 
                         //calcolate the mean and the distribution
                         stat.intervalDim = distance;
+                        
                         foreach (string[] row in csv)
                         {
-                            stat.OnlineArithmeticMean(Convert.ToDouble(row[index]));
-                            stat.OnlineContinuosDistribution(Convert.ToDouble(row[index]), 1);
+                            string data = row[index].Trim();
+                            if (data != "")
+                            {
+                                stat.OnlineArithmeticMean(Convert.ToDouble(row[index]));
+                                stat.OnlineContinuosDistribution(Convert.ToDouble(row[index]), 1);
+                            }
+                            else
+                            {
+                                nullCounter++;
+                            }
                         }
 
                         //update frequencies and percentage
@@ -275,6 +297,10 @@ namespace ReadCSV
                         {
                             string name = "[ " + value.start + " ; " + value.end + " )";
                             this.dataGridDistribution.Rows.Add(name, value.value, value.freq, value.perc);
+                        }
+                        if (nullCounter > 0)
+                        {
+                            this.dataGridDistribution.Rows.Add("NULL", nullCounter);
                         }
 
 

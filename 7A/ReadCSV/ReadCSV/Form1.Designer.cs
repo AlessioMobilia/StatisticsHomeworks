@@ -49,7 +49,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.labelMeanValue = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.buttonCalcolate = new System.Windows.Forms.Button();
+            this.buttonExecute = new System.Windows.Forms.Button();
             this.comboBoxAttributeCalc = new System.Windows.Forms.ComboBox();
             this.numericUpDownRowLimit = new System.Windows.Forms.NumericUpDown();
             this.label5 = new System.Windows.Forms.Label();
@@ -92,13 +92,16 @@
             // 
             this.dataGrid.AllowUserToAddRows = false;
             this.dataGrid.AllowUserToDeleteRows = false;
+            this.dataGrid.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGrid.BackgroundColor = System.Drawing.SystemColors.ControlLight;
             this.dataGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGrid.Location = new System.Drawing.Point(13, 42);
             this.dataGrid.Name = "dataGrid";
             this.dataGrid.ReadOnly = true;
-            this.dataGrid.Size = new System.Drawing.Size(1237, 412);
+            this.dataGrid.Size = new System.Drawing.Size(1237, 376);
             this.dataGrid.TabIndex = 2;
             this.dataGrid.Text = "dataGridView1";
             // 
@@ -114,6 +117,9 @@
             // 
             // groupBoxType
             // 
+            this.groupBoxType.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBoxType.Controls.Add(this.label3);
             this.groupBoxType.Controls.Add(this.radioButtonBool);
             this.groupBoxType.Controls.Add(this.radioButtonDateTime);
@@ -215,25 +221,29 @@
             // 
             this.dataGridTypes.AllowUserToAddRows = false;
             this.dataGridTypes.AllowUserToDeleteRows = false;
+            this.dataGridTypes.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridTypes.BackgroundColor = System.Drawing.SystemColors.ControlLight;
             this.dataGridTypes.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridTypes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridTypes.Location = new System.Drawing.Point(12, 460);
+            this.dataGridTypes.Location = new System.Drawing.Point(12, 424);
             this.dataGridTypes.Name = "dataGridTypes";
-            this.dataGridTypes.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.dataGridTypes.Size = new System.Drawing.Size(1237, 78);
+            this.dataGridTypes.Size = new System.Drawing.Size(1237, 114);
             this.dataGridTypes.TabIndex = 6;
             this.dataGridTypes.Text = "dataGridView1";
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.numericUpDownIntervalDistance);
             this.groupBox1.Controls.Add(this.dataGridDistribution);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.labelMeanValue);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.buttonCalcolate);
+            this.groupBox1.Controls.Add(this.buttonExecute);
             this.groupBox1.Controls.Add(this.comboBoxAttributeCalc);
             this.groupBox1.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.groupBox1.Location = new System.Drawing.Point(226, 545);
@@ -280,6 +290,9 @@
             // 
             // dataGridDistribution
             // 
+            this.dataGridDistribution.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridDistribution.BackgroundColor = System.Drawing.SystemColors.ControlLight;
             this.dataGridDistribution.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridDistribution.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -319,18 +332,18 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Mean:";
             // 
-            // buttonCalcolate
+            // buttonExecute
             // 
-            this.buttonCalcolate.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.buttonCalcolate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonCalcolate.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buttonCalcolate.Location = new System.Drawing.Point(242, 41);
-            this.buttonCalcolate.Name = "buttonCalcolate";
-            this.buttonCalcolate.Size = new System.Drawing.Size(105, 23);
-            this.buttonCalcolate.TabIndex = 1;
-            this.buttonCalcolate.Text = "Calcolate";
-            this.buttonCalcolate.UseVisualStyleBackColor = false;
-            this.buttonCalcolate.Click += new System.EventHandler(this.Calcolate_Click);
+            this.buttonExecute.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.buttonExecute.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonExecute.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonExecute.Location = new System.Drawing.Point(352, 41);
+            this.buttonExecute.Name = "buttonExecute";
+            this.buttonExecute.Size = new System.Drawing.Size(105, 23);
+            this.buttonExecute.TabIndex = 1;
+            this.buttonExecute.Text = "Execute";
+            this.buttonExecute.UseVisualStyleBackColor = false;
+            this.buttonExecute.Click += new System.EventHandler(this.Calcolate_Click);
             // 
             // comboBoxAttributeCalc
             // 
@@ -339,7 +352,7 @@
             this.comboBoxAttributeCalc.FormattingEnabled = true;
             this.comboBoxAttributeCalc.Location = new System.Drawing.Point(110, 43);
             this.comboBoxAttributeCalc.Name = "comboBoxAttributeCalc";
-            this.comboBoxAttributeCalc.Size = new System.Drawing.Size(121, 20);
+            this.comboBoxAttributeCalc.Size = new System.Drawing.Size(224, 20);
             this.comboBoxAttributeCalc.TabIndex = 0;
             this.comboBoxAttributeCalc.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -437,7 +450,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.NumericUpDown numericUpDownIntervalDistance;
-        private System.Windows.Forms.Button buttonCalcolate;
+        private System.Windows.Forms.Button buttonExecute;
         private System.Windows.Forms.NumericUpDown numericUpDownRowLimit;
         private System.Windows.Forms.Label label5;
     }
