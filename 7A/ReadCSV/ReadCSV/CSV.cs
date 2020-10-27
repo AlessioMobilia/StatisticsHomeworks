@@ -50,48 +50,52 @@ namespace ReadCSV
             Type[] detectedTypes = new Type[row.Length];
             int count = 0;
 
+            //get the type of the first row
             foreach (string field in row)
             {
                 detectedTypes[count] = DetectType(field);
                 count++;
             }
 
+            //check if the type of the csv are all string (in this case nothing can be said and return false)
             foreach(Type t in detectedTypes)
             {
                 if (t != typeof(string))
                     return false;
             }
 
+            //check if the type of the first row are all string and in case return true
             foreach (Type t in types)
             {
                 if (t != typeof(string))
                     return true;
             }
 
-            return false;
+            return false; //return false if the first string contain value that are not strings
         }
         
-
         static public bool isNullField(string field)
         {
             field.Trim();
             return field == "";
         }
 
-        static public Type[] DetectTypes(string path, string delimiter)
+        static public Type[] DetectTypes(string path, string delimiter, int RowNumber)
         {
-            int RowNumber = 100;
+            //int RowNumber = 100; //number of row that check for types
             List<string[]> csv = Read(path, delimiter, RowNumber);
             int dim = csv[0].Length;
             Type[] Types = new Type[dim];
             csv.RemoveAt(0); //remove the first row (they can be the variable names)
 
+            //loop the row
             for (int i = 0; i < dim; i++)
             {
+                //calculate the distribution of types in the column
                 Dictionary<Type, int> detectedTypes = new Dictionary<Type, int>();           
                 foreach (string[] row in csv)
                 {
-                    Type t = DetectType(row[i]);
+                    Type t = DetectType(row[i]); //detect the type of the field
 
                     if (t != null)
                     {
@@ -104,6 +108,7 @@ namespace ReadCSV
                 }
 
 
+                //chose the more suitable type for the column
                 if (detectedTypes.ContainsKey(typeof(string)))
                 {
                     Types[i] = typeof(string);
@@ -141,6 +146,7 @@ namespace ReadCSV
         }
             
 
+        //check the time of a string
         static public Type DetectType(String str)
         {
             Int32 intValue;
@@ -185,9 +191,10 @@ namespace ReadCSV
             int max= 0, dim = 0;
             string delimiter=",";
 
+            //return the delimiter that result with more field in the first row of the csv
             foreach (string d in delimiters)
             {
-                dim = CheckDelimiter(d, path);
+                dim = CheckDelimiter(d, path); //check the number of field with a given delimiter
                 if (dim > max)
                 {
                     max = dim;
@@ -199,6 +206,7 @@ namespace ReadCSV
 
         }
 
+        //check the number of field with a given delimiter
         private static int CheckDelimiter(string delimiter,string path)
         {
             using TextFieldParser parser = new TextFieldParser(path);

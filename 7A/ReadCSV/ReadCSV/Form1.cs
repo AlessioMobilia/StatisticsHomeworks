@@ -56,60 +56,70 @@ namespace ReadCSV
 
             int rowLimit = (int) this.numericUpDownRowLimit.Value;
 
+            //chech file exist
             if (!File.Exists(path))
             {
                 this.textBoxPathCSV.Text = "THE PATH DOES NOT EXIST";
-
             }
             else
             {
 
 
 
-
                 using TextFieldParser parser = new TextFieldParser(path);
 
+                //chech delimiter
                 string delimiter = CSV.DetectDelimiter(path);
 
-                types = CSV.DetectTypes(path, delimiter);
+                //detect value types
+                types = CSV.DetectTypes(path, delimiter, rowLimit);
+
+                //read all csv
                 csv = CSV.Read(path, delimiter, rowLimit);
+
+
                 int NAttributes = csv[0].Length;
                 string[] names = new string[NAttributes];
 
+
+                //check if the field in the first row are value or names
                 if (CSV.IsFirstRowNames(path, delimiter, types))
                 {
-                    names = csv[0];
-                    csv.RemoveAt(0);
+                    names = csv[0];  //add row to names
+                    csv.RemoveAt(0); //remove row from data
                 }
                 else
                 {
+                    //generate new names
                     for (int i = 0; i < NAttributes; i++)
                     {
                         names[i] = "X_" + (i + 1).ToString();
                     }
                 }
 
+                //set colum title in GridBoxes
                 foreach (string n in names)
                 {
-                    DataGridViewComboBoxColumn comboBoxColumn = new DataGridViewComboBoxColumn();
                     this.dataGrid.Columns.Add(n,n);
                     this.dataGridTypes.Columns.Add(n, n);
                     this.comboBoxAttributes.Items.Add(n);
                     this.comboBoxAttributeCalc.Items.Add(n);
-
                 }
 
-
+                //fill the GridBox with types
                 string[] typesString = Array.ConvertAll(types, element => element.Name.ToString());
                 this.dataGridTypes.Rows.Add(typesString);
                 
-
+                //fill the GridBox with all the data
                 foreach (string[] row in csv)
                 {
                     this.dataGrid.Rows.Add(row);
                 }
 
+                //update GridBox types
                 setDataGridTypes();
+
+
                 this.dataGrid.AutoResizeColumns();
 
 
@@ -139,20 +149,22 @@ namespace ReadCSV
             }
         }
 
+        //set the type all field in the GridBox
         private bool setDataGridTypes()
         {
+            //loop all the column
             for (int i=0; i < types.Length; i++)
             {
-                if (!setDataGridTypesRow(i,types[i]))
+                if (!setDataGridTypesRow(i,types[i])) //set all the row of the type in the array
                     return false;
                 this.dataGrid.Columns[i].ValueType = types[i];
             }
             return true;
         }
 
+        //set the type all field in a column of the GridBox
         private bool setDataGridTypesRow(int i, Type type)
         {
-            bool result = true;
             for (int r = 0; r < this.dataGrid.Rows.Count; r++)
             {
                 try
@@ -162,16 +174,17 @@ namespace ReadCSV
                 }catch (Exception e)
                 {
                     Debug.Write("Exception");
-                    result = false;
-                    break;
+                    return false;
 
                 }
-            }  
-            return result;
-        }
+            }
+            return true;
+
+        } 
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            //check type of selected item
             int index = this.comboBoxAttributeCalc.SelectedIndex;
             if ((types[index] == typeof(Int32)) || (types[index] == typeof(Int64)) || (types[index] == typeof(Double)))
             {
@@ -194,20 +207,24 @@ namespace ReadCSV
 
             if (csv != null)
             {
+                //initialize the Grid Names
                 this.dataGridDistribution.Columns.Add("interval", "interval");
                 this.dataGridDistribution.Columns.Add("counter", "counter");
                 this.dataGridDistribution.Columns.Add("frequency", "frequency");
                 this.dataGridDistribution.Columns.Add("percentage", "percentage");
 
+                if (this.comboBoxAttributeCalc.SelectedIndex >= 0)
+                {
 
-                int index = this.comboBoxAttributeCalc.SelectedIndex;
+
+                    int index = this.comboBoxAttributeCalc.SelectedIndex;
 
                     Statistics stat = new Statistics();
 
                     double distance = (double)this.numericUpDownIntervalDistance.Value;
                     if (distance == 1)
                     {
-                        if (numericDistribution)
+                        if (numericDistribution) //calculate the arithmetic mean if is numeric
                         {
                             foreach (string[] row in csv)
                             {
@@ -215,23 +232,31 @@ namespace ReadCSV
                             }
                         }
 
+                        //calcolate the online distribution of discrete variable
                         foreach (string[] row in csv)
                         {
                             stat.OnlineDistribution(row[index], 1);
                         }
 
+                        double[] freq = stat.CalcDisctreteFreq();
+                        double[] perc = stat.CalcDisctretePerc();
+
                         Dictionary<string, int> distribution = stat.distribution;
 
+                        //update Grid
+                        int i = 0;
                         foreach (KeyValuePair<string, int> value in distribution)
                         {
-                            this.dataGridDistribution.Rows.Add(value.Key, value.Value);
+                            this.dataGridDistribution.Rows.Add(value.Key, value.Value, freq[i], perc[i]);
+                            i++;
                         }
 
                     }
-                    else
+                    else //continuos variable
                     {
 
 
+                        //calcolate the mean and the distribution
                         stat.intervalDim = distance;
                         foreach (string[] row in csv)
                         {
@@ -239,9 +264,13 @@ namespace ReadCSV
                             stat.OnlineContinuosDistribution(Convert.ToDouble(row[index]), 1);
                         }
 
+                        //update frequencies and percentage
                         stat.UpdateFreq();
 
+                        //take results
                         List<interval> distribution = stat.distributionCont;
+
+                        //update GridBox
                         foreach (interval value in distribution)
                         {
                             string name = "[ " + value.start + " ; " + value.end + " )";
@@ -254,6 +283,12 @@ namespace ReadCSV
 
                     this.labelMeanValue.Text = stat.avg.ToString();
                     this.dataGridDistribution.AutoResizeColumns();
+
+
+
+
+                }
+                
 
 
                 

@@ -37,6 +37,7 @@ namespace ReadCSV
         public List<interval> distributionCont { get; private set; } = new List<interval>();
         public double intervalDim { get; set; } = 5;
 
+
         public void OnlineArithmeticMean(double number)
         {
             this.count++;
@@ -58,6 +59,43 @@ namespace ReadCSV
 
         }
 
+        public double[] CalcDisctreteFreq()
+        {
+            double[] freq = new double[distribution.Count];
+            double total = 0.0;
+            foreach (KeyValuePair<string,int> kv in distribution)
+            {
+                total += kv.Value;
+            }
+
+            int i = 0;
+            foreach (KeyValuePair<string, int> kv in distribution)
+            {
+                freq[i] = kv.Value / total;
+                i++;
+            }
+
+            return freq;
+        }
+
+        public double[] CalcDisctretePerc()
+        {
+            double[] perc = new double[distribution.Count];
+            double total = 0.0;
+            foreach (KeyValuePair<string, int> kv in distribution)
+            {
+                total += kv.Value;
+            }
+
+            int i = 0;
+            foreach (KeyValuePair<string, int> kv in distribution)
+            {
+                perc[i] = (kv.Value * 100) / total;
+                i++;
+            }
+
+            return perc;
+        }
 
         //initialize the distribution
         public void initializeContinuosDistribution(interval range, double interval)

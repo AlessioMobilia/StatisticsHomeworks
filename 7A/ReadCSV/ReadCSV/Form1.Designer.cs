@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.buttonLoad = new System.Windows.Forms.Button();
             this.textBoxPathCSV = new System.Windows.Forms.TextBox();
             this.dataGrid = new System.Windows.Forms.DataGridView();
@@ -394,8 +395,9 @@
             this.Controls.Add(this.dataGrid);
             this.Controls.Add(this.textBoxPathCSV);
             this.Controls.Add(this.buttonLoad);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Distribution";
+            this.Text = "CSV Reader - Alessio Mobilia";
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).EndInit();
             this.groupBoxType.ResumeLayout(false);
             this.groupBoxType.PerformLayout();
