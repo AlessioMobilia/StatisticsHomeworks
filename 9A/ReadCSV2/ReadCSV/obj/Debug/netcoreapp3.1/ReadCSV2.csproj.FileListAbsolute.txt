@@ -1,0 +1,16 @@
+C:\Users\aless\source\repos\9A\ReadCSV2\ReadCSV\bin\Debug\netcoreapp3.1\ReadCSV2.exe
+C:\Users\aless\source\repos\9A\ReadCSV2\ReadCSV\bin\Debug\netcoreapp3.1\ReadCSV2.deps.json
+C:\Users\aless\source\repos\9A\ReadCSV2\ReadCSV\bin\Debug\netcoreapp3.1\ReadCSV2.runtimeconfig.json
+C:\Users\aless\source\repos\9A\ReadCSV2\ReadCSV\bin\Debug\netcoreapp3.1\ReadCSV2.runtimeconfig.dev.json
+C:\Users\aless\source\repos\9A\ReadCSV2\ReadCSV\bin\Debug\netcoreapp3.1\ReadCSV2.dll
+C:\Users\aless\source\repos\9A\ReadCSV2\ReadCSV\bin\Debug\netcoreapp3.1\ReadCSV2.pdb
+C:\Users\aless\source\repos\9A\ReadCSV2\ReadCSV\obj\Debug\netcoreapp3.1\ReadCSV2.csprojAssemblyReference.cache
+C:\Users\aless\source\repos\9A\ReadCSV2\ReadCSV\obj\Debug\netcoreapp3.1\ReadCSV.Form1.resources
+C:\Users\aless\source\repos\9A\ReadCSV2\ReadCSV\obj\Debug\netcoreapp3.1\ReadCSV2.csproj.GenerateResource.cache
+C:\Users\aless\source\repos\9A\ReadCSV2\ReadCSV\obj\Debug\netcoreapp3.1\ReadCSV2.AssemblyInfoInputs.cache
+C:\Users\aless\source\repos\9A\ReadCSV2\ReadCSV\obj\Debug\netcoreapp3.1\ReadCSV2.AssemblyInfo.cs
+C:\Users\aless\source\repos\9A\ReadCSV2\ReadCSV\obj\Debug\netcoreapp3.1\ReadCSV2.csproj.CoreCompileInputs.cache
+C:\Users\aless\source\repos\9A\ReadCSV2\ReadCSV\obj\Debug\netcoreapp3.1\ReadCSV2.dll
+C:\Users\aless\source\repos\9A\ReadCSV2\ReadCSV\obj\Debug\netcoreapp3.1\ReadCSV2.pdb
+C:\Users\aless\source\repos\9A\ReadCSV2\ReadCSV\obj\Debug\netcoreapp3.1\ReadCSV2.genruntimeconfig.cache
+C:\Users\aless\source\repos\9A\ReadCSV2\ReadCSV\obj\Debug\netcoreapp3.1\ReadCSV2.Chart.resources
