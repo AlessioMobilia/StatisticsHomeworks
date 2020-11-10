@@ -1,0 +1,10 @@
+C:\Users\aless\source\repos\11A\Integration\Integration\obj\Debug\Integration.csprojAssemblyReference.cache
+C:\Users\aless\source\repos\11A\Integration\Integration\obj\Debug\Integration.Form1.resources
+C:\Users\aless\source\repos\11A\Integration\Integration\obj\Debug\Integration.Properties.Resources.resources
+C:\Users\aless\source\repos\11A\Integration\Integration\obj\Debug\Integration.csproj.GenerateResource.cache
+C:\Users\aless\source\repos\11A\Integration\Integration\obj\Debug\Integration.csproj.CoreCompileInputs.cache
+C:\Users\aless\source\repos\11A\Integration\Integration\bin\Debug\Integration.exe.config
+C:\Users\aless\source\repos\11A\Integration\Integration\bin\Debug\Integration.exe
+C:\Users\aless\source\repos\11A\Integration\Integration\bin\Debug\Integration.pdb
+C:\Users\aless\source\repos\11A\Integration\Integration\obj\Debug\Integration.exe
+C:\Users\aless\source\repos\11A\Integration\Integration\obj\Debug\Integration.pdb
