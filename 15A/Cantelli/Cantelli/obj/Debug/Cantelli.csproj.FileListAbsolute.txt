@@ -1,0 +1,10 @@
+C:\Users\Gamer\source\repos\15_A\Cantelli\Cantelli\bin\Debug\Cantelli.exe.config
+C:\Users\Gamer\source\repos\15_A\Cantelli\Cantelli\bin\Debug\Cantelli.exe
+C:\Users\Gamer\source\repos\15_A\Cantelli\Cantelli\bin\Debug\Cantelli.pdb
+C:\Users\Gamer\source\repos\15_A\Cantelli\Cantelli\obj\Debug\Cantelli.csprojAssemblyReference.cache
+C:\Users\Gamer\source\repos\15_A\Cantelli\Cantelli\obj\Debug\Cantelli.Form1.resources
+C:\Users\Gamer\source\repos\15_A\Cantelli\Cantelli\obj\Debug\Cantelli.Properties.Resources.resources
+C:\Users\Gamer\source\repos\15_A\Cantelli\Cantelli\obj\Debug\Cantelli.csproj.GenerateResource.cache
+C:\Users\Gamer\source\repos\15_A\Cantelli\Cantelli\obj\Debug\Cantelli.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\source\repos\15_A\Cantelli\Cantelli\obj\Debug\Cantelli.exe
+C:\Users\Gamer\source\repos\15_A\Cantelli\Cantelli\obj\Debug\Cantelli.pdb
