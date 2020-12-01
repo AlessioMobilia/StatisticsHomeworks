@@ -1,0 +1,10 @@
+C:\Users\Gamer\source\repos\RandomWalk\RandomWalk\obj\Debug\RandomWalk.csprojAssemblyReference.cache
+C:\Users\Gamer\source\repos\RandomWalk\RandomWalk\obj\Debug\RandomWalk.Properties.Resources.resources
+C:\Users\Gamer\source\repos\RandomWalk\RandomWalk\obj\Debug\RandomWalk.csproj.GenerateResource.cache
+C:\Users\Gamer\source\repos\RandomWalk\RandomWalk\obj\Debug\RandomWalk.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\source\repos\RandomWalk\RandomWalk\bin\Debug\RandomWalk.exe.config
+C:\Users\Gamer\source\repos\RandomWalk\RandomWalk\bin\Debug\RandomWalk.exe
+C:\Users\Gamer\source\repos\RandomWalk\RandomWalk\bin\Debug\RandomWalk.pdb
+C:\Users\Gamer\source\repos\RandomWalk\RandomWalk\obj\Debug\RandomWalk.exe
+C:\Users\Gamer\source\repos\RandomWalk\RandomWalk\obj\Debug\RandomWalk.pdb
+C:\Users\Gamer\source\repos\RandomWalk\RandomWalk\obj\Debug\RandomWalk.RandomWalk.resources
