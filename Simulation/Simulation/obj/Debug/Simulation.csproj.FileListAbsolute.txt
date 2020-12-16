@@ -1,0 +1,15 @@
+C:\Users\Gamer\source\repos\Simulation\Simulation\bin\Debug\Simulation.exe.config
+C:\Users\Gamer\source\repos\Simulation\Simulation\bin\Debug\Simulation.exe
+C:\Users\Gamer\source\repos\Simulation\Simulation\bin\Debug\Simulation.pdb
+C:\Users\Gamer\source\repos\Simulation\Simulation\obj\Debug\Simulation.csprojAssemblyReference.cache
+C:\Users\Gamer\source\repos\Simulation\Simulation\obj\Debug\Simulation.Form1.resources
+C:\Users\Gamer\source\repos\Simulation\Simulation\obj\Debug\Simulation.Properties.Resources.resources
+C:\Users\Gamer\source\repos\Simulation\Simulation\obj\Debug\Simulation.csproj.GenerateResource.cache
+C:\Users\Gamer\source\repos\Simulation\Simulation\obj\Debug\Simulation.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\source\repos\Simulation\Simulation\obj\Debug\Simulation.exe
+C:\Users\Gamer\source\repos\Simulation\Simulation\obj\Debug\Simulation.pdb
+C:\Users\Gamer\source\repos\Simulation\Simulation\obj\Debug\Simulation.GeometricBrownianMotion.resources
+C:\Users\Gamer\source\repos\Simulation\Simulation\obj\Debug\Simulation.Ornstain.resources
+C:\Users\Gamer\source\repos\Simulation\Simulation\obj\Debug\Simulation.BrownianMotion.resources
+C:\Users\Gamer\source\repos\Simulation\Simulation\obj\Debug\Simulation.Poisson.resources
+C:\Users\Gamer\source\repos\Simulation\Simulation\obj\Debug\Simulation.Cantelli.resources
